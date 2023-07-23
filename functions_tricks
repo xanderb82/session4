@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+const a = 9
+const b = 3
+const name1 = "Sacha"
+const name2 = "Romain"
+const object1 = {a: a, name: name1, age: 41}
+const object2 = {a: b, name: name2, age: 31}
+const array1 = [object1, object2]
+function firstFunction () {console.log(`Hellooo, ${name2}`)}
+function secondFunction (a, b) {console.log(a, b)}
+firstFunction()
+secondFunction()
+function thirdFunction (a, b) {console.log(a + b)}
+function fourthFunction (a, b) {return a + b}
+const c = thirdFunction(1, 2)
+const d = fourthFunction(1, 2)
+function fifthFunction (a, b) {
+if(typeof a || typeof b !== "undefined")
+return a - b}
+
+function fifthFunction (a, b) {
+if(typeof a || typeof b !== "undefined")
+return a - b}
+undefined
+fifthFunction(3, 6)
+-3
+fifthFunction()
+NaN
+typeof undefined
+'undefined'
+function fifthFunction (a, b) {
+if(typeof a !== "number" || typeof b !== "number") return "Terrible Error!!!"
+return a - b}
+undefined
+fifthFunction()
+'Terrible Error!!!'
+fifthFunction(18, 9)
+9
+
+</script>
+
+</body>
+</html>
